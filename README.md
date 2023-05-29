@@ -19,9 +19,7 @@ This challenge involved creating a web platform that would allow the user to:
 *Search for roles
 \*Change the applicant status on a given role
 
-I decided to choose React for frontend since that was what I felt I was most comfortable with.
-I have been sick for the most part of this week but I started feeling better on friday the 26th, so I started putting in hours for this project since then. Due to this time constraint I focused on having a functional frontend since I'm very much a beginner in creating databases and that would take time that I did not have to set up properly.
-With this in mind, all my applicants although fully interactable and editable, are only saved for the session, when reloaded all the changes are forgotten.
+
 
 ## Development
 
@@ -59,4 +57,4 @@ If I were to continue to work on it I would:
 *Give more vibrance to the search bar
 *Render the delete button correctly
 
-Thank you for the opportunity and I hope to hear from you soon!
+
