@@ -1,0 +1,83 @@
+.btn-add {
+  position: fixed;
+  bottom: 5%;
+  right:5%;
+  width: 7%;
+  height: 5%;
+  background-color:#fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  z-index: 1000;
+}
+
+.btn-add::before {
+  content: "+";
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color:red;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.modal-content {
+  width: 70%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-close {
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.submitbutton {
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #444;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.text{
+  color:black;
+  font-size: 1.2em;
+}

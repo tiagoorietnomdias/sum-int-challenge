@@ -1,0 +1,37 @@
+
+.topnav {
+  padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 20%;
+    background-color: transparent;
+    overflow: hidden;
+    top:7%;
+    left:40%;
+  }
+
+  .topnav input[type=text] {
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid red;
+    margin-top: 8px;
+    font-size: 20px; 
+    color: white;
+    width: 60%; 
+  }
+  
+
+  .topnav input[type=text]::placeholder {
+    color: red;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .topnav input[type=text] {
+      width: 90%;
+      padding: 14px;
+    }
+  }
+  
