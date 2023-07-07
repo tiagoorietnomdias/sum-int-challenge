@@ -54,7 +54,7 @@ This project was fun to make, even though there were some challenging aspects to
 If I were to continue to work on it I would:
 *Set up the backend
 *Focus on making the forms and the role table look a little better  
-*Give more vibrance to the search bar
+*Add more vibrance to the search bar
 *Render the delete button correctly
 
 
